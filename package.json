@@ -2,9 +2,9 @@
   "name": "img2webp",
   "version": "1.0.0",
   "description": "Convert jpeg/png to webp with vercel.",
-  "main": "app.js",
+  "main": "api/app.js",
   "scripts": {
-    "dev": "node app.js"
+    "dev": "node api/app.js"
   },
   "repository": {
     "type": "git",
