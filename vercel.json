@@ -16,12 +16,6 @@
         }
     ],
     "cleanUrls": true,
-    "rewrites": [
-        {
-            "source": "/api",
-            "destination": "/api/app.js"
-        }
-    ],
     "headers": [
         {
             "source": "/api/(.*)",
