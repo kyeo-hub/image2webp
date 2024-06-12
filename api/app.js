@@ -10,7 +10,7 @@ const app = express();
 const upload = multer();
 
 // 定义POST请求的路由，用于处理图片转换为WebP格式的请求
-app.post('/convert', upload.single('image'), async (req, res) => {
+app.post('/api/convert', upload.single('image'), async (req, res) => {
     try {
         // 检查是否有文件上传
         if (!req.file) {
