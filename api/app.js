@@ -14,7 +14,7 @@ app.post('/api/convert', upload.single('image'), async (req, res) => {
     try {
         // 检查是否有文件上传
         if (!req.file) {
-            return res.status(400).send('没有上传文件。');
+            return res.status(400).send('服务搭建成功，没有上传文件。');
         }
 
         // 将上传的文件转换为sharp可以处理的格式
