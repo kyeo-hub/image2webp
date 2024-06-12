@@ -2,23 +2,23 @@
     "version": 2,
     "builds": [
         {
-            "src": "api/app.js",
+            "src": "app.js",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
-            "src": "/api/(.*)",
+            "src": "/convert",
             "methods": [
                 "POST"
             ],
-            "dest": "api/app.js"
+            "dest": "app.js"
         }
     ],
     "cleanUrls": true,
     "headers": [
         {
-            "source": "/api/(.*)",
+            "source": "/",
             "headers": [
                 {
                     "key": "X-Content-Type-Options",
