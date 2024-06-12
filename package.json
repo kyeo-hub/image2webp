@@ -1,0 +1,29 @@
+{
+  "name": "img2webp",
+  "version": "1.0.0",
+  "description": "Convert jpeg/png to webp with vercel.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyeo-hub/image2webp.git"
+  },
+  "keywords": [
+    "image",
+    "webp"
+  ],
+  "author": "kyeo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyeo-hub/image2webp/issues"
+  },
+  "homepage": "https://github.com/kyeo-hub/image2webp#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.4",
+    "stream": "^0.0.2"
+  }
+}
